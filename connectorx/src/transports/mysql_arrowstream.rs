@@ -2,7 +2,7 @@
 
 use crate::{
     destinations::arrowstream::{
-        typesystem::ArrowTypeSystem, ArrowDestination, ArrowDestinationError,
+        typesystem::ArrowTypeSystem, NativeDateTimeWrapperMicro, ArrowDestination, ArrowDestinationError,
     },
     impl_transport,
     sources::mysql::{
